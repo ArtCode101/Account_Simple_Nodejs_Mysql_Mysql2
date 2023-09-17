@@ -24,3 +24,15 @@ app_connect_db:
 
 app_create_account:
 	node script_create_account.js
+
+app_get_account:
+	node script_get_account.js
+
+app_get_accounts:
+	node script_get_accounts.js
+
+app_update_account:
+	node script_update_account.js
+
+app_delete_account:
+	node script_delete_account.js
