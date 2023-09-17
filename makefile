@@ -19,3 +19,8 @@ app_init:
 app_install:
 	npm install mysql2
 
+app_connect_db:
+	node script.js
+
+app_create_account:
+	node script_create_account.js
