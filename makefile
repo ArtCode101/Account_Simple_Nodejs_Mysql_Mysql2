@@ -12,3 +12,10 @@ db_up:
 
 db_down:
 	docker exec -i mysql mysql -uroot -proot artdb < db/accountdown.sql
+
+app_init:
+	npm init -y
+
+app_install:
+	npm install mysql2
+
