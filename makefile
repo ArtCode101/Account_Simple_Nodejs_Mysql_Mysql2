@@ -8,6 +8,7 @@ db_remove:
 	docker rm mysql
 
 db_up:
-	docker exec -i mysql mysql -uroot -proot artdb < db/account.sql
-	
+	docker exec -i mysql mysql -uroot -proot artdb < db/accountup.sql
+
 db_down:
+	docker exec -i mysql mysql -uroot -proot artdb < db/accountdown.sql
